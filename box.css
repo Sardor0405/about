@@ -1,0 +1,121 @@
+.text {
+    background-color: red;
+    text-indent: 100px;
+    text-transform: capitalize;    
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .5;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    
+    display: flex;   
+    
+    align-items: center;
+    justify-content:space-around;
+    box-shadow: -1px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    
+}
+.color {
+    color: red;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+ 
+}
+li {
+    display: inline-block;
+    padding: 0 10px;
+   
+
+}
+h3 {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 3px;
+}
+
+h1,p {
+    
+    text-align: center;
+    z-index: 1;
+    
+
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+.box1 {
+    background-color: rgba(176, 204, 199, 0.4);
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+    margin-left: 20px;
+}
+.line {
+    height: 2px;
+    width:100px;
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+  
+}
+.lin{
+    height: 2px;
+    width:100px;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.one {
+    width: 5px;
+    height: 5px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.second {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.container2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
